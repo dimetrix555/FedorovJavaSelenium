@@ -1,6 +1,7 @@
 package mypackage;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class CollectionsList {
@@ -73,5 +74,17 @@ public class CollectionsList {
         System.out.println(list.containsAll(list2));
         list.removeAll(list2);
         System.out.println(list.containsAll(list2));
+
+        // Итератор это интерфейс который позволяет работать с элементами списка или коллекции
+        Iterator<Integer> iterator = list.iterator();
+        // метод указывает на следующий элемент в списке
+        // System.out.println(iterator.next());
+        //System.out.println(iterator.next());
+        // метод позволяет узнать существует ли следующий элемент списка возвращает (true|false)
+        //System.out.println(iterator.hasNext());
+        System.out.println();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
     }
 }
