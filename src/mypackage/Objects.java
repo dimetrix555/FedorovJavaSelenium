@@ -28,5 +28,17 @@ public class Objects {
 
         Car car5 = new Car("Red", 2100, 2000, 5100);
         System.out.println(car5.color + " " + car5.height + " " + car5.width + " " + car5.length);
+
+        System.out.println();
+        System.out.println(Car.var);
+        Car.var = 100;
+
+        System.out.println(car1.var);
+        System.out.println(car2.var);
+        System.out.println(car3.var);
+
+        Car.method();
+
+        String.format("New %s string", "string");
     }
 }

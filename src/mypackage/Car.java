@@ -1,6 +1,16 @@
 package mypackage;
 
 public class Car {
+
+    // Модификатор final делает переменные и методы финальнымими и не допускает их перезаписи
+    // Модификатор static позволяет делать переменные и методы в единственном экземпляре и вызыватся через класс
+    // Их изменение производит изменение во всех объектах данного класса
+    final static int var2 = 100;
+    static int var = 10;
+    static void method() {
+        System.out.println("Static method.");
+    }
+
     int height;
     int width;
     int length;
