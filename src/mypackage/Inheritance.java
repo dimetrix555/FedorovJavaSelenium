@@ -20,5 +20,10 @@ public class Inheritance {
 
         System.out.println("Cat name is: " + cat.name);
         System.out.println("Dog name is: " + dog.name);
+
+        dog.var = 10;
+        dog.var2 = 30;
+
+        System.out.println(dog.getWeight());
     }
 }
