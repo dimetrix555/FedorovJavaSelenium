@@ -25,5 +25,8 @@ public class Inheritance {
         dog.var2 = 30;
 
         System.out.println(dog.getWeight());
+
+        dog.sound();
+        cat.sound();
     }
 }

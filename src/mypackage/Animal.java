@@ -22,4 +22,8 @@ public class Animal {
     public void sleep() {
         System.out.println("Zzzz");
     }
+
+    public void sound() {
+        System.out.println("Hello!");
+    }
 }
